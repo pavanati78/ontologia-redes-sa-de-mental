@@ -1,0 +1,1245 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Adolescente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Adulto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#AdultoJovem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Ansiedade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#BaixaAutoestima"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#CVV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#CampanhaSaudeMental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Caps"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Comentar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Compartilhar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ConteudoNegativo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Curtir"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#CyberDependencia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Cyberbullying"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Depressao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#EducacaoDigital"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Estresse"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Evento"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ExperienciaNegativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ExposicaoNegativa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Facebook"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorProtetivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorRisco"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Fomo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#GrupoApoioOnline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#GruposDeApoio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Instagram"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Interacao"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#InteracaoSaudavel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#IsolamentoSocial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#IsolamentoVirtual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#LimiteUso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Nomofobia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ParticipacaoGrupo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Postar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#RedeSocial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ServicoApoio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#SintomaMental"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#TerapiaOnline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#TikTok"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#UsoExcessivo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Usuario"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#WhatsApp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#YouTube"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#apresenta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#busca"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#realiza"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#sofre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#temFatorProtetivo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#temFatorRisco"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#dataEvento"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#frequenciaApoio"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#idade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#nivelGravidade"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#tempoDeUsoDiario"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#UsoExcessivo"/>
+    </Declaration>
+    <Declaration>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Instagram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Cyberbullying"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Curtir"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#usuario_joao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Ansiedade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Comentar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#TerapiaOnline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#GruposDeApoio"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Adolescente"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Usuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Adolescente"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#Facebook"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Adolescente"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#TikTok"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Adolescente"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#WhatsApp"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Adolescente"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#YouTube"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Adulto"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Usuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Adulto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#Facebook"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Adulto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#Instagram"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Adulto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#WhatsApp"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Adulto"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#YouTube"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#AdultoJovem"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Usuario"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#AdultoJovem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#Facebook"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#AdultoJovem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#Instagram"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#AdultoJovem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#TikTok"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#AdultoJovem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#WhatsApp"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#AdultoJovem"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#YouTube"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Ansiedade"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#SintomaMental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#BaixaAutoestima"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#SintomaMental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#CVV"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ServicoApoio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#CampanhaSaudeMental"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Caps"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ServicoApoio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Comentar"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Interacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Compartilhar"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Interacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ConteudoNegativo"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorRisco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Curtir"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Interacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#CyberDependencia"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorRisco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Cyberbullying"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Depressao"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#SintomaMental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#EducacaoDigital"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorProtetivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Estresse"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#SintomaMental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ExperienciaNegativa"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorRisco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ExposicaoNegativa"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ExposicaoNegativa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#apresenta"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#ConteudoNegativo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ExposicaoNegativa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#apresenta"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#CyberDependencia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ExposicaoNegativa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#apresenta"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#Fomo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ExposicaoNegativa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#apresenta"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#IsolamentoSocial"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ExposicaoNegativa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#apresenta"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#IsolamentoVirtual"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ExposicaoNegativa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#apresenta"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#Nomofobia"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ExposicaoNegativa"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#apresenta"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#UsoExcessivo"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Facebook"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#RedeSocial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Fomo"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorRisco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#GrupoApoioOnline"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ServicoApoio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#GruposDeApoio"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorProtetivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#GruposDeApoio"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#CampanhaSaudeMental"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Instagram"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#RedeSocial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#InteracaoSaudavel"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorProtetivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#IsolamentoSocial"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#SintomaMental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#IsolamentoVirtual"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorRisco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#LimiteUso"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorProtetivo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Nomofobia"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#SintomaMental"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ParticipacaoGrupo"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Evento"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ParticipacaoGrupo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#temFatorProtetivo"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#GruposDeApoio"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ParticipacaoGrupo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#temFatorProtetivo"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#InteracaoSaudavel"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ParticipacaoGrupo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#temFatorProtetivo"/>
+            <Class IRI="http://www.exemplo.org/rs_saude_mental#LimiteUso"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Postar"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Interacao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#TerapiaOnline"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ServicoApoio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#TikTok"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#RedeSocial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#UsoExcessivo"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorRisco"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#WhatsApp"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#RedeSocial"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#YouTube"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#RedeSocial"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Ansiedade"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Ansiedade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Cyberbullying"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Cyberbullying"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#GruposDeApoio"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#GruposDeApoio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Instagram"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Instagram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#TerapiaOnline"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#TerapiaOnline"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#UsoExcessivo"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#UsoExcessivo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Adolescente"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#usuario_joao"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#apresenta"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#usuario_joao"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Ansiedade"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#busca"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#usuario_joao"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#TerapiaOnline"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#realiza"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#usuario_joao"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Comentar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#realiza"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#usuario_joao"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Curtir"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#sofre"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#usuario_joao"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Cyberbullying"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#temFatorProtetivo"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#usuario_joao"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#GruposDeApoio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#temFatorRisco"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#usuario_joao"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#UsoExcessivo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#usuario_joao"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Instagram"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#nivelGravidade"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Ansiedade"/>
+        <Literal>Alto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#dataEvento"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#Cyberbullying"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#date">2025-02-16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#frequenciaApoio"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#TerapiaOnline"/>
+        <Literal>Semanal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#idade"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#usuario_joao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">16</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#tempoDeUsoDiario"/>
+        <NamedIndividual IRI="http://www.exemplo.org/rs_saude_mental#usuario_joao"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">5.2</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#apresenta"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Usuario"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#busca"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Usuario"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#realiza"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Usuario"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#sofre"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Usuario"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#temFatorProtetivo"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Usuario"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#temFatorRisco"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Usuario"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Usuario"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#apresenta"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#SintomaMental"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#busca"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ServicoApoio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#realiza"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Interacao"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#sofre"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Evento"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#temFatorProtetivo"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorProtetivo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#temFatorRisco"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#FatorRisco"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.exemplo.org/rs_saude_mental#utiliza"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#RedeSocial"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#dataEvento"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Evento"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#frequenciaApoio"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#ServicoApoio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#idade"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Usuario"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#nivelGravidade"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#SintomaMental"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#tempoDeUsoDiario"/>
+        <Class IRI="http://www.exemplo.org/rs_saude_mental#Usuario"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#dataEvento"/>
+        <Datatype abbreviatedIRI="xsd:date"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#frequenciaApoio"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#idade"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#nivelGravidade"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.exemplo.org/rs_saude_mental#tempoDeUsoDiario"/>
+        <Datatype abbreviatedIRI="xsd:float"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Adolescente</IRI>
+        <Literal xml:lang="pt-br">Adolescente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Adulto</IRI>
+        <Literal xml:lang="pt-br">Adulto</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#AdultoJovem</IRI>
+        <Literal xml:lang="pt-br">Adulto jovem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Ansiedade</IRI>
+        <Literal xml:lang="en">An emotional state characterized by feelings of worry or apprehension, often accompanied by physical symptoms such as increased heart rate, sweating, tremors, and difficulty concentrating. Recognized as a mental disorder by DSM-V and ICD-10 when severe and persistent.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Ansiedade</IRI>
+        <Literal xml:lang="pt-br">Estado emocional caracterizado por sentimentos de tensão, preocupação e aumento da atividade do sistema nervoso autônomo, que pode manifestar-se como medo ou apreensão perante situações diversas. Reconhecida pelo CID-10 como um transtorno mental, seus sintomas incluem inquietação, fadiga, irritabilidade, dificuldade de concentração, tensão muscular e distúrbio do sono.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Ansiedade</IRI>
+        <Literal xml:lang="pt-br">Ansiedade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Ansiedade</IRI>
+        <Literal xml:lang="en">Anxiety</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#BaixaAutoestima</IRI>
+        <Literal xml:lang="en">A condition marked by negative self-perception, feelings of inadequacy, and lack of confidence, often worsened by social comparison in digital environments. It may contribute to other symptoms or disorders, such as depression and social isolation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#BaixaAutoestima</IRI>
+        <Literal xml:lang="pt-br">Condição marcada por autopercepção negativa, sentimentos de inadequação e falta de confiança, frequentemente potencializada pela comparação social em ambientes digitais. Pode contribuir para outros sintomas ou transtornos, como depressão e isolamento social.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#BaixaAutoestima</IRI>
+        <Literal xml:lang="pt-br">Baixa autoestima</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#BaixaAutoestima</IRI>
+        <Literal xml:lang="en">Low self-esteem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#BaixaAutoestima</IRI>
+        <IRI>https://psycnet.apa.org/record/2004-00231-009</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#CVV</IRI>
+        <Literal xml:lang="pt-br">CVV</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#CVV</IRI>
+        <Literal xml:lang="pt-br">Centro de valorização à vida</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#CampanhaSaudeMental</IRI>
+        <Literal xml:lang="pt-br">Campanha saúde mental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Caps</IRI>
+        <Literal xml:lang="pt-br">CAPS</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Caps</IRI>
+        <Literal xml:lang="pt-br">Centro de atenção psicossocial</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Compartilhar</IRI>
+        <Literal xml:lang="pt-br">Compartilhamento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#ConteudoNegativo</IRI>
+        <Literal xml:lang="pt-br">Conteúdo negativo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Curtir</IRI>
+        <Literal xml:lang="pt-br">Ação curtir</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#CyberDependencia</IRI>
+        <Literal xml:lang="pt-br">Cyber dependência</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Cyberbullying</IRI>
+        <Literal xml:lang="en">Cyber bullyng</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Depressao</IRI>
+        <Literal xml:lang="en">A mood disorder characterized by persistent sadness, anhedonia, fatigue, changes in sleep or appetite, feelings of guilt or hopelessness, and, in severe cases, suicidal thoughts. Defined according to DSM-V and ICD-10.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Depressao</IRI>
+        <Literal xml:lang="pt-br">Transtorno de humor caracterizado por tristeza profunda, anedonia, fadiga, alterações de sono ou apetite, sentimentos de culpa ou desesperança e, em casos graves, pensamentos suicidas. Classificado segundo DSM-V e CID-10.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Depressao</IRI>
+        <Literal xml:lang="en">Depression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Depressao</IRI>
+        <Literal xml:lang="pt-br">Depressão</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Depressao</IRI>
+        <IRI>https://icd.who.int/browse10/2019/en#/F32</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#EducacaoDigital</IRI>
+        <Literal xml:lang="pt-br">Educação digital</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Estresse</IRI>
+        <Literal xml:lang="pt-br">Resposta física e psicológica a fatores internos ou externos considerados ameaçadores ou desafiadores, podendo ser episódico ou persistente. Altos níveis de estresse podem contribuir para outros sintomas de saúde mental em usuários de redes sociais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Estresse</IRI>
+        <Literal xml:lang="en">A physical and psychological response to internal or external factors perceived as threatening or challenging, which can be episodic or persistent. High levels of stress may contribute to other mental health symptoms in social media users.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Estresse</IRI>
+        <Literal xml:lang="pt-br">Estresse</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Estresse</IRI>
+        <Literal xml:lang="en">Stress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Estresse</IRI>
+        <IRI>https://www.apa.org/topics/stress</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Evento</IRI>
+        <Literal xml:lang="en">A significant occurrence in social media or the user&apos;s life, which may impact mental health either positively or negatively. Examples include cyberbullying, educational campaigns, or group participation.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Evento</IRI>
+        <Literal xml:lang="pt-br">Ocorrência significativa nas redes sociais ou na vida do usuário, podendo impactar a saúde mental de maneira positiva ou negativa. Exemplo: cyberbullying, campanhas educativas, participação em grupos.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Evento</IRI>
+        <Literal xml:lang="en">Event</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Evento</IRI>
+        <Literal xml:lang="pt-br">Evento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#ExperienciaNegativa</IRI>
+        <Literal xml:lang="pt-br">Experiência negativa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#ExposicaoNegativa</IRI>
+        <Literal xml:lang="pt-br">Exposição negativa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Facebook</IRI>
+        <Literal xml:lang="en">Facebook</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#FatorProtetivo</IRI>
+        <Literal xml:lang="en">An aspect, characteristic, or practice that reduces the likelihood of negative effects of social media on mental health. Examples include usage limits, social support, and digital literacy.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#FatorProtetivo</IRI>
+        <Literal xml:lang="pt-br">Aspecto, característica ou prática que reduz a probabilidade de efeitos negativos das redes sociais sobre a saúde mental. Pode incluir limites de uso, apoio social e educação digital.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#FatorProtetivo</IRI>
+        <Literal xml:lang="pt-br">Fator protetivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#FatorProtetivo</IRI>
+        <Literal xml:lang="en">Protective factor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#FatorRisco</IRI>
+        <Literal xml:lang="en">A condition, situation, or behavior that increases the likelihood of negative effects of social media on mental health, such as excessive use, exposure to harmful content, or negative interaction experiences.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#FatorRisco</IRI>
+        <Literal xml:lang="pt-br">Condição, situação ou comportamento que aumenta a probabilidade dos efeitos negativos das redes sociais sobre a saúde mental, como uso excessivo, exposição a conteúdos nocivos ou experiências negativas de interação.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#FatorRisco</IRI>
+        <Literal xml:lang="pt-br">Fator de risco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#FatorRisco</IRI>
+        <Literal xml:lang="en">Risk factor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Fomo</IRI>
+        <Literal xml:lang="pt-br">Fomo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#GrupoApoioOnline</IRI>
+        <Literal xml:lang="pt-br">Grupo apoio online</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#GruposDeApoio</IRI>
+        <Literal xml:lang="pt-br">Grupos de apoio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Instagram</IRI>
+        <Literal xml:lang="en">Instagram</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Interacao</IRI>
+        <Literal xml:lang="en">Any act, communication, or response by the user on social networks, including comments, likes, shares, posts, and messages.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Interacao</IRI>
+        <Literal xml:lang="pt-br">Qualquer ato, comunicação ou resposta do usuário em redes sociais, abrangendo comentários, curtidas, compartilhamentos, postagens e mensagens.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Interacao</IRI>
+        <Literal xml:lang="en">Interaction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Interacao</IRI>
+        <Literal xml:lang="pt-br">Interação</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#InteracaoSaudavel</IRI>
+        <Literal xml:lang="pt-br">Interação saudável</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#IsolamentoSocial</IRI>
+        <Literal xml:lang="en">A lack or limitation of meaningful social interactions, whether voluntary or imposed, often associated with feelings of loneliness and increased vulnerability to other mental disorders. It can be amplified by inappropriate use of social networks.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#IsolamentoSocial</IRI>
+        <Literal xml:lang="pt-br">Ausência ou limitação de interações sociais significativas, voluntárias ou impostas, frequentemente associada a sentimentos de solidão e maior vulnerabilidade a outros transtornos mentais. Pode ser potencializada pelo uso inadequado de redes sociais.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#IsolamentoSocial</IRI>
+        <Literal xml:lang="pt-br">Isolamento social</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#IsolamentoSocial</IRI>
+        <Literal xml:lang="en">Social isolation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#IsolamentoSocial</IRI>
+        <IRI>https://www.apa.org/monitor/2019/05/ce-corner-isolation</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#IsolamentoVirtual</IRI>
+        <Literal xml:lang="pt-br">Isolamento virtual</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#LimiteUso</IRI>
+        <Literal xml:lang="pt-br">Limite uso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Nomofobia</IRI>
+        <Literal xml:lang="en">An irrational fear or anxiety of being without access to a mobile phone or the internet. The term derives from &apos;no mobile phobia&apos; and is associated with compulsive use of mobile devices impacting mental well-being.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Nomofobia</IRI>
+        <Literal xml:lang="pt-br">Medo ou ansiedade irracional de ficar sem acesso ao telefone celular e à internet. Termo derivado de &apos;no mobile phobia&apos;, relacionado ao uso compulsivo de dispositivos móveis que afeta o bem-estar mental.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Nomofobia</IRI>
+        <Literal xml:lang="pt-br">Nomofobia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Nomofobia</IRI>
+        <Literal xml:lang="en">Nomophobia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Nomofobia</IRI>
+        <IRI>https://www.anm.org.br/nomofobia-uma-nova-patologia-ou-adaptacao-ao-novo/</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#ParticipacaoGrupo</IRI>
+        <Literal xml:lang="pt-br">Participação grupo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Postar</IRI>
+        <Literal xml:lang="pt-br">Postagem</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#RedeSocial</IRI>
+        <Literal xml:lang="en">A digital platform that enables user interaction, content sharing, networking, and real-time communication. Examples include Facebook, Instagram, and WhatsApp.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#RedeSocial</IRI>
+        <Literal xml:lang="pt-br">Plataforma digital que possibilita a interação entre usuários, compartilhamento de conteúdo, formação de redes de contato e comunicação em tempo real. Exemplo: Facebook, Instagram, WhatsApp.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#RedeSocial</IRI>
+        <Literal xml:lang="pt-br">Rede social</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#RedeSocial</IRI>
+        <Literal xml:lang="en">Social network</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#ServicoApoio</IRI>
+        <Literal xml:lang="en">An organization, professional, or resource available to provide emotional, psychological, or social support related to mental health, either in-person or online.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#ServicoApoio</IRI>
+        <Literal xml:lang="pt-br">Organização, profissional ou recurso disponibilizado para oferecer suporte emocional, psicológico ou social relacionados à saúde mental, presencial ou online.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#ServicoApoio</IRI>
+        <Literal xml:lang="pt-br">Serviço de apoio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#ServicoApoio</IRI>
+        <Literal xml:lang="en">Support service</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#SintomaMental</IRI>
+        <Literal xml:lang="en">A mental symptom refers to any observable or self-reported alteration in cognition, emotion, or behavior that may indicate possible mental disorders, such as anxiety, depression, or stress. This concept is based on the definitions from ICD-10 and DSM-V, and may be used for risk stratification in mental health contexts.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#SintomaMental</IRI>
+        <Literal xml:lang="en">Mental symptom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#SintomaMental</IRI>
+        <Literal xml:lang="pt-br">Sintoma mental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#TerapiaOnline</IRI>
+        <Literal xml:lang="pt-br">Terapia online</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#TikTok</IRI>
+        <Literal xml:lang="en">TikTok</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#UsoExcessivo</IRI>
+        <Literal xml:lang="pt-br">Uso excessivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Usuario</IRI>
+        <Literal xml:lang="en">An individual who uses social networks, performs interactions, and is subject to events and exposure to risk and protective factors regarding mental health.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/description"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Usuario</IRI>
+        <Literal xml:lang="pt-br">Indivíduo que utiliza redes sociais, realizando interações, sendo afetado por eventos e exposto a fatores de risco e proteção em relação à saúde mental.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Usuario</IRI>
+        <Literal xml:lang="en">User</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#Usuario</IRI>
+        <Literal xml:lang="pt-br">Usuário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#WhatsApp</IRI>
+        <Literal xml:lang="en">Whatsapp</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#YouTube</IRI>
+        <Literal xml:lang="en">YouTube</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#apresenta</IRI>
+        <Literal xml:lang="pt-br">apresenta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#busca</IRI>
+        <Literal xml:lang="pt-br">busca</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#dataEvento</IRI>
+        <Literal xml:lang="pt-br">dataEvento</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#frequenciaApoio</IRI>
+        <Literal xml:lang="pt-br">frequenciaApoio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#idade</IRI>
+        <Literal xml:lang="pt-br">idade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#nivelGravidade</IRI>
+        <Literal xml:lang="pt-br">nivelGravidade</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#realiza</IRI>
+        <Literal xml:lang="pt-br">realiza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#sofre</IRI>
+        <Literal xml:lang="pt-br">sofre</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#temFatorProtetivo</IRI>
+        <Literal xml:lang="pt-br">tem fator protetivo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#temFatorRisco</IRI>
+        <Literal xml:lang="pt-br">tem Fator Risco</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#tempoDeUsoDiario</IRI>
+        <Literal xml:lang="pt-br">tempoDeUsoDiário</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.exemplo.org/rs_saude_mental#utiliza</IRI>
+        <Literal xml:lang="pt-br">utiliza</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Thing</IRI>
+        <Literal xml:lang="pt-br">Domínio Saúde Mental</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>Thing</IRI>
+        <Literal xml:lang="en">MentalHealthDomain</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
